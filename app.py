@@ -44,7 +44,7 @@ VALID_RANGES = {
     'Insulin': (0, 846),
     'BMI': (18, 50),
     'DiabetesPedigreeFunction': (0.078, 2.42),
-    'Age': (21, 85)
+    'Age': (0, 85)
 }
 # Daftar fitur yang diharapkan oleh model
 EXPECTED_FEATURES = list(VALID_RANGES.keys())
